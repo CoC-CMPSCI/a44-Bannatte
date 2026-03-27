@@ -12,7 +12,6 @@ int main() {
 
     cin >> selection;
 
-    // Ensure switch matches exactly
     switch (selection) {
         case 1:
             cout << "Menu 1 selected\n";
