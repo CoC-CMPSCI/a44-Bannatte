@@ -4,33 +4,20 @@ using namespace std;
 int main() {
     int selection;
 
-    // Display menu
-    cout << "Which formula do you want to see?\n\n";
+    cout << "Which formula do you want to see?\n";
     cout << "1. Apple\n";
     cout << "2. Bannana\n";
     cout << "3. Orange\n";
     cout << "4. None of them\n";
 
-    // Read user input
     cin >> selection;
 
-    // Switch statement to handle menu selection
     switch (selection) {
-        case 1:
-            cout << "Menu 1 selected\n";
-            break;
-        case 2:
-            cout << "Menu 2 selected\n";
-            break;
-        case 3:
-            cout << "Menu 3 selected\n";
-            break;
-        case 4:
-            cout << "Menu 4 selected\n";
-            break;
-        default:
-            cout << "Wrong menu item\n";
-            break;
+        case 1: cout << "Menu 1 selected\n"; break;
+        case 2: cout << "Menu 2 selected\n"; break;
+        case 3: cout << "Menu 3 selected\n"; break;
+        case 4: cout << "Menu 4 selected\n"; break;
+        default: cout << "Wrong menu item\n"; break;
     }
 
     return 0;
